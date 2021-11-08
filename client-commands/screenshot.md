@@ -21,7 +21,7 @@ The image comes in base64 and gets decoded in the package automatically. If you 
 $screenshotAsBinary = $clusteer->getScreenshot(false);
 ```
 
- You can also set the quality of the screenshot by calling `withScreenshot($quality)`, where `$quality` is a number between `0` and `100`:
+&#x20;You can also set the quality of the screenshot by calling `withScreenshot($quality)`, where `$quality` is a number between `0` and `100`:
 
 ```php
 $clusteer = Clusteer::to('https://example.com')

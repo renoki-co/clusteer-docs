@@ -1,6 +1,9 @@
 ---
-description: Clusteer is a Puppeteer wrapper written for PHP, with the super-power of parallelizing pages across multiple browser instances.
+description: >-
+  Clusteer is a Puppeteer wrapper written for PHP, with the super-power of
+  parallelizing pages across multiple browser instances.
 ---
+
 # ⚡ Introduction
 
 ![](.gitbook/assets/Clusteer\_25.png)

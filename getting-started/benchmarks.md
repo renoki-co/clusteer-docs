@@ -2,9 +2,9 @@
 
 You may now ask - is it faster than traditional methods that create one browser for each page?
 
- Benchmarks speak for themselves. Below you will find a benchmark that was made on an app that uses a traditional, new-browser-for-each-request method like [spatie/browsershot](https://github.com/spatie/browsershot) to analyze links, compared to the one used by Clusteer.
+&#x20;Benchmarks speak for themselves. Below you will find a benchmark that was made on an app that uses a traditional, new-browser-for-each-request method like [spatie/browsershot](https://github.com/spatie/browsershot) to analyze links, compared to the one used by Clusteer.
 
- With Browsershot, the CPU usage skyrockets to 99%. AWS forces autoscaling and gets a total of 6 x `m5.large` instances (2 vCPU, 8 GB RAM) to 99%. There were analyzed 100 links every 1 hour. There are only 3 concurrent jobs that process them in parallel. At the end of the benchmark, the analysis was stopped because the CPU usage couldn't get down from 99%.
+&#x20;With Browsershot, the CPU usage skyrockets to 99%. AWS forces autoscaling and gets a total of 6 x `m5.large` instances (2 vCPU, 8 GB RAM) to 99%. There were analyzed 100 links every 1 hour. There are only 3 concurrent jobs that process them in parallel. At the end of the benchmark, the analysis was stopped because the CPU usage couldn't get down from 99%.
 
 ![](../.gitbook/assets/1.png)
 
